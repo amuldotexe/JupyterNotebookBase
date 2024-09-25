@@ -1,0 +1,56 @@
+# Add directories or file patterns to ignore during indexing (e.g. foo/ or *.csv)
+# Virtual environments
+venv/
+.venv/
+
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts
+/build/
+/dist/
+/site-packages/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Documentation build artifacts
+/docs/_build/
+
+# Test results, coverage, logs
+/test_output/
+/coverage/
+*.log
+
+# Node.js dependencies (if applicable)
+/node_modules/
+package-lock.json
+yarn.lock
+
+# Version control metadata
+.git/
+.hg/
+.svn/
+
+# IDE/editor specific
+.vscode/
+.idea/
+.DS_Store
+
+
+/target
+Cargo.lock
+/.git
+.vscode/
+/.idea/
+/target/debug/deps
+/target/release/deps
+/target/debug/incremental
+/target/release/incremental
+/target/debug/build
+/target/release/build
+/target/debug/examples
+/target/release/examples
+/target/doc

@@ -1,2 +1,46 @@
 EarthNotebookBase
 
+Attempt Rust notebook base
+
+
+
+
+
+-------------
+rust-notebook/
+├── backend/
+│   ├── src/
+│   │   ├── main.rs
+│   │   ├── api.rs
+│   │   ├── kernel.rs
+│   │   └── utils.rs
+│   ├── Cargo.toml
+│   └── README.md
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   ├── src/
+│   │   ├── App.tsx
+│   │   ├── components/
+│   │   │   ├── Notebook.tsx
+│   │   │   ├── Cell.tsx
+│   │   │   └── Toolbar.tsx
+│   │   ├── styles/
+│   │   │   ├── base.css
+│   │   │   └── theme.css
+│   │   └── utils/
+│   │       └── api.ts
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── README.md
+├── notebooks/
+│   └── example.rnb
+├── tests/
+│   ├── backend_tests.rs
+│   └── frontend_tests.js
+├── .gitignore
+├── LICENSE
+└── README.md
+
+
